@@ -1,7 +1,7 @@
 import sqlite3
 from functools import wraps
 
-conn = sqlite3.connect('B:\Programming Stuff\Python\Coding_Files\Discord Bot\Overwatch_Tracker.db')
+conn = sqlite3.connect('B:\Programming Stuff\Python\Coding_Projects\Discord Bot\Overwatch_Tracker.db')
 #conn = sqlite3.connect(':memory:')
 c = conn.cursor()
 

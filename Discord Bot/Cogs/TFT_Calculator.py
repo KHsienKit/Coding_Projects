@@ -94,10 +94,10 @@ class TFT_Calculator(commands.Cog):
 
         plt.tight_layout()
 
-        fig.savefig('B:\Programming Stuff\Python\Coding_Files\Discord Bot\Odds Shop Calculator.png')
+        fig.savefig('B:\Programming Stuff\Python\Coding_Projects\Discord Bot\Odds Shop Calculator.png')
         
         #Sending Graph to Discord Server
-        await ctx.send(file = discord.File('B:\Programming Stuff\Python\Coding_Files\Discord Bot\Odds Shop Calculator.png'))
+        await ctx.send(file = discord.File('B:\Programming Stuff\Python\Coding_Projects\Discord Bot\Odds Shop Calculator.png'))
 
 #Setting up Cog
 async def setup(bot):

@@ -18,7 +18,7 @@ def owner():
 #Discord Cog Settings
 @bot.event
 async def on_ready():
-    for file in os.listdir('B:\Programming Stuff\Python\Coding_Files\Discord Bot\Cogs'):
+    for file in os.listdir('B:\Programming Stuff\Python\Coding_Projects\Discord Bot\Cogs'):
         if file.endswith('.py'):
             await bot.load_extension(f'Cogs.{file[:-3]}')
     

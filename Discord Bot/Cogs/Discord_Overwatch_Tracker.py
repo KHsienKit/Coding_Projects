@@ -5,11 +5,11 @@ from discord.ext import commands
 from functools import wraps
 import sys
 
-sys.path.append('B:\Programming Stuff\Python\Coding_Files\Other Projects')
+sys.path.append('B:\Programming Stuff\Python\Coding_Projects\Other Projects')
 import Overwatch_Tracker # type: ignore
 import sqlite3
 overwatch = Overwatch_Tracker
-conn = sqlite3.connect('B:\Programming Stuff\Python\Coding_Files\Discord Bot\Overwatch_Tracker.db')
+conn = sqlite3.connect('B:\Programming Stuff\Python\Coding_Projects\Discord Bot\Overwatch_Tracker.db')
 c = conn.cursor()
 
 def owner():
