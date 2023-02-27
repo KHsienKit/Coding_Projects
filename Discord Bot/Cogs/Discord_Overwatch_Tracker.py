@@ -5,7 +5,7 @@ from discord.ext import commands
 from functools import wraps
 import sys
 
-sys.path.append('B:\Programming Stuff\Python\Coding_Projects\Other Projects')
+sys.path.append('B:\Programming Stuff\Python\Coding_Projects\Other_Projects')
 import Overwatch_Tracker # type: ignore
 import sqlite3
 overwatch = Overwatch_Tracker
