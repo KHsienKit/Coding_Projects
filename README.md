@@ -34,7 +34,7 @@ Third coding project. Made to randomly choose a role to play in Overwatch 2. Add
 
 ### Overwatch Rank Tracker
 
-Fourth coding proejct. A change in rank is recorded every 7 wins or 20 losses. However, there was no way to check win or loss progress in game. This project was made using sqlite3 to make a small amd simple database to track a players Win, Loss and Rank for a particular role(Tank, DPS or Support). Later adapted into Discord Bot.
+Fourth coding proejct. A change in rank is recorded every 7 wins or 20 losses. However, there was no way to check win or loss progress in game. This project was made using sqlite3 to make a small and simple database to track a players Win, Loss and Rank for a particular role(Tank, DPS or Support). Later adapted into Discord Bot.
 
 ### TFT Calculator
 
